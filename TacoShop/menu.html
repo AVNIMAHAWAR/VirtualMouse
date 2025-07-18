@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animated menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <section class="header-title-line">
+        <h1>
+            acme co.
+        </h1>
+        <button class="menu-button">
+            <div class="menu-icon"> </div>
+        </button>
+    </section>
+
+    <nav>
+        <ul>
+            <li><a href="products.html">products</a></li>
+            <li><a href="#">forum</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+   </header> 
+   <main class="main">
+    <article id="menu" class="main_article menu">
+        <h2 class="menu_h2">Our Menu</h2>
+        <table class="menu_container">
+          <!--<caption class="offscreen">
+                Our tacos</caption>-->  
+            <thead>
+                <tr>
+                    <th class="menu_header" scope="col">Tacos</th>
+                    <th class="menu_header" scope="col">Quantity</th>
+                    <th class="menu_header" scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="menu_item menu_cr" scope="row" rowspan="3"> Crunchy
+
+                    </th>
+                    <td class="menu_item">1</td>
+                    <td class="menu_item">$1.50</td>
+                </tr>
+                <tr>
+                <td class="menu_item">2</td>
+                <td class="menu_item">$2.50</td>
+            </tr>
+            <tr>
+                <td class="menu_item">3</td>
+                <td class="menu_item">$3.25</td>
+            </tr>
+            <tr>
+                <th class="menu_item menu_sf" scope="row" rowspan="3">Soft</th>
+                <td class="menu_item">1</td>
+                <td class="menu_item">$2.00</td>
+            </tr>
+            <tr>
+                <td class="menu_item">2</td>
+                <td class="menu_item">$3.50</td>
+            </tr>
+            <tr>
+                <td class="menu_item">3</td>
+                <td class="menu_item">$4.50</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="menu_item menu_cs" colspan="3">Chips &amp; Salsa $2
+
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <p class="center"><a href="#">back to top</a></p>
+        </p>
+    </article>
+   </main> 
+   <footer class="footer">
+    <p>
+        <span class="nowrap">copyright &copy;<time id="year"></time></span>
+        <span class="nowrap">little taco shop</span>
+    </p>
+   </footer>
+</body>
+</html>
