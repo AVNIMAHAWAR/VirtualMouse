@@ -48,3 +48,36 @@ textarea{
     --LINK-COLOR:#000;
     --LINK-HOVER:hsla(0 0% 0% 0.6);
     --NAV-BGCOLOR:#FFF;
+
+/* borders*/
+--BORDERS:1px solid var(--BORDER-COLOR);
+--BORDER-RADIUS:15px;
+
+/*STANDARD PADDING*/
+--PADDING-TOPBOTTOM:0.25em;
+--PADDING-RL:2.5%;
+
+/*STANDARD MARGIN*/
+--MARGIN:clamp(1em,2.5vh,1.5em) 0;
+}
+
+/*@media (prefers-color-scheme:dark){
+    :root{
+        --BGCOLOR:#000;
+        --BGCOLOR-FADE:gray;
+        --HEADER-COLOR:whitesmoke;
+        --NAV-BGCOLOR:rgb(20,20,20);
+
+    }
+}*/
+
+/* || utility classes*/
+.offscreen{
+    position:relative;
+    top: -10000px;
+}
+
+.nowrap{
+    white-space: nowrap;
+    color:#FFF ;
+}
