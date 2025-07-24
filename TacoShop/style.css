@@ -1,0 +1,50 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">*/
+
+@import url('https://fonts.google.com/specimen/Creepster?categoryFilters%3DSeasonal%3A%2FSeasonal%2FHalloween');
+/* ||reset */
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    display:block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea{
+    font: inherit;
+}
+
+/*  ||variables */
+
+:root{
+    /*fonts */
+    /*--FF:"Nutino" ,sans-serif; */
+    --FF-HEADINGS:"monserrat";
+    --FS: clamp(1rem,2.2vh,1.5rem);
+
+    /* colours */
+    --BGCOLOR-FADE:rgb(252,220,160);
+    --BGCOLOR: orange;
+    --BGIMAGE :linear-gradient(to bottom,var(--BGCOLOR),var(--BGCOLOR-FADE));
+    --BODY-BGCOLOR:#FFF;
+    --BORDER-COLOR:#333;
+    --FONT-COLOR:#000;
+    --HEADER-BGCOLOR:#000;
+    --HEADER-COLOR:#FFF;
+    --HERO-BGCOLOR:rgba(51,178,51,0.75);
+    --hero-color:#fff;
+    --HIGHLIGHT-COLOR:rgb(51 178 51);
+    --LINK-ACTIVE:orange;
+    --LINK-COLOR:#000;
+    --LINK-HOVER:hsla(0 0% 0% 0.6);
+    --NAV-BGCOLOR:#FFF;
