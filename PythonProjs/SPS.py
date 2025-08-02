@@ -28,6 +28,6 @@ while True:
         if(compChoice=="Rock"):
             print("Rock breaks Scissors,You Lose")
         else:
-            print("Scissor cuts Paper,You Winn")
+            print("Scissor cuts Paper,You Win")
 
 print("----GAME OVER----")
